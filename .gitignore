@@ -1,0 +1,10 @@
+
+*.class
+*a.out
+*.vscode
+*.c_cpp_properties.json
+*.settings.json
+*.png
+*.zip
+*tempCodeRunnerFile.cpp
+
