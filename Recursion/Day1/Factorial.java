@@ -1,17 +1,21 @@
 
+//Single function call inside the same function
+
 import java.util.*;
 
 class Factorial {
 
+    int ans = 1;
     int fact(int n) {
 
         if(n==1)
             return n;
-        return n * fact(n-1);
+        ans = n * fact(n-1);
+        return ans;
     }
 }
 
-class Main {
+class Fact_Main {
 
     public static void main(String[] args) {
 
